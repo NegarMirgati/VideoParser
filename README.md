@@ -60,7 +60,10 @@ This will create a new directory called "resizedSprites" in the passed in sprite
 python ResizeSprites.py moorioSprites 2.23
 ```
 Now go ahead and rerun the VideoParser command with the new "resizedSprites" directory, with the command: 
+
+```
 python VideoParser.py Moorio.mp4 moorioSprites/resizedSprites 1
+```
 
 Wait a few moments then check "frameDescriptions.csv". It should have quite a bit more in it this time! Let's check exactly how well it did. 
 
@@ -69,7 +72,7 @@ Wait a few moments then check "frameDescriptions.csv". It should have quite a bi
 VisualizeFrames.py is a script to visualize a frameDescriptions.csv file to see how well the VideoParser.py did. The command to use it looks like: 
 
 ```
-python VisualizeFrames.py <spritesDirectory> <frames csv file> <the directory to place the visualizations
+python VisualizeFrames.py <spritesDirectory> <frames csv file> <the directory to place the visualizations>
 ```
 So in this case let's run the command: 
 
