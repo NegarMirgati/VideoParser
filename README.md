@@ -21,7 +21,7 @@ Install OpenCV:
 	Windows (not verified): http://docs.opencv.org/master/d5/de5/tutorial_py_setup_in_windows.html#gsc.tab=0
 Download ffmpeg (video parser): https://www.ffmpeg.org/download.html
 
-#Tutorial 2: VideoParser.py
+# Tutorial 2: VideoParser.py
 With all the relevant downloads downloaded, download the repo and cd into it. 
 
 The VideoParser.py script uses the following command: 
@@ -36,7 +36,7 @@ After a few moments you'll see a new "frames" directory pop up with 28 frames (1
 
 If you open up one of the created frames (say "image-00000001.png") you'll see that the sprites in the image are much larger than the individual sprites in "moorioSprites". This is a typical problem in parsing video, and so the next phase helps to solve that. 
 
-#Tutorial 3: ResizeSprites.py
+# Tutorial 3: ResizeSprites.py
 The command to run ResizeSprites.py looks like: 
 
 python ResizeSprites.py <name of sprites directory> <resizeRatio>
@@ -66,7 +66,7 @@ You should see a new directory "visualizedCV" that contains the visualizations o
 
 And that's it! Following that same set of steps you should be able to get a frameDescriptions.csv file. From there you can use the sprites and their positions per frame to extract all sorts of information about a gameplay video. 
 
-#Tips and Tricks
+# Tips and Tricks
 Here's a couple additional suggestions for you: 
 	-OpenCV cannot handle transparency. Your best bet is to include a background color on all sprites that either matches the background color of the game, have multiple different versions of each sprite with different background colors are limited, or create sprites with random noise as the background image. 
 
